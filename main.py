@@ -5,6 +5,9 @@ import day02
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import day04
+import day06
+import day07
 
 
 def print_hi(name):
@@ -20,7 +23,19 @@ if __name__ == '__main__':
     #print("Day 2 part 1 test: " + str(day02.part_one("./inputs/day02_test.txt")))
     #print("Day 2 part 1: " + str(day02.part_one()))
     #print("Day 2 part 2 test: " + str(day02.part_two("./inputs/day02_test.txt")))
-    print("Day 2 part 2: " + str(day02.part_two()))
+    #print("Day 2 part 2: " + str(day02.part_two()))
+
+    #print("day 4 part 1 test: " + str(day04.part_one("./inputs/day04_test.txt")))
+    #print("Day 4 part 1: " + str(day04.part_one()))
+    #print("Day 4 part 2 test: " + str(day04.part_two("./inputs/day04_test.txt")))
+    print("Day 4 part 2: " + str(day04.part_two()))
+
+    # Day 6 part 1 took a little excel detour for funsies
+    #print("day 6 part 2: " + str(day06.part_two()))
+    #print("day 7 part 1 test: " + str(day07.part_one("./inputs/day07_test.txt")))
+    #print("day 7 part 1: " + str(day07.part_one()))
+    #print("day 7 part 2 test: " + str(day07.part_two("./inputs/day07_test.txt")))
+    #print("day 7 part 2: " + str(day07.part_two()))
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
