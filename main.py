@@ -8,6 +8,7 @@ import day02
 import day04
 import day06
 import day07
+import day08
 
 
 def print_hi(name):
@@ -28,7 +29,7 @@ if __name__ == '__main__':
     #print("day 4 part 1 test: " + str(day04.part_one("./inputs/day04_test.txt")))
     #print("Day 4 part 1: " + str(day04.part_one()))
     #print("Day 4 part 2 test: " + str(day04.part_two("./inputs/day04_test.txt")))
-    print("Day 4 part 2: " + str(day04.part_two()))
+    #print("Day 4 part 2: " + str(day04.part_two()))
 
     # Day 6 part 1 took a little excel detour for funsies
     #print("day 6 part 2: " + str(day06.part_two()))
@@ -36,6 +37,8 @@ if __name__ == '__main__':
     #print("day 7 part 1: " + str(day07.part_one()))
     #print("day 7 part 2 test: " + str(day07.part_two("./inputs/day07_test.txt")))
     #print("day 7 part 2: " + str(day07.part_two()))
+    print("day 8 part 2 test: " + str(day08.part_two("./inputs/day08_test2.txt")))
+    print("day 8 part 2 test: " + str(day08.part_two()))
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
