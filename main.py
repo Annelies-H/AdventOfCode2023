@@ -9,6 +9,7 @@ import day04
 import day06
 import day07
 import day08
+import day11
 
 
 def print_hi(name):
@@ -37,8 +38,11 @@ if __name__ == '__main__':
     #print("day 7 part 1: " + str(day07.part_one()))
     #print("day 7 part 2 test: " + str(day07.part_two("./inputs/day07_test.txt")))
     #print("day 7 part 2: " + str(day07.part_two()))
-    print("day 8 part 2 test: " + str(day08.part_two("./inputs/day08_test2.txt")))
-    print("day 8 part 2 test: " + str(day08.part_two()))
+    #print("day 8 part 2 test: " + str(day08.part_two("./inputs/day08_test2.txt")))
+    #print("day 8 part 2 test: " + str(day08.part_two()))
+
+    #print("day 11 part 1 test: " + str(day11.part_one("./inputs/day11_test.txt")))
+    print("day 11: " + str(day11.part_one()))
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
